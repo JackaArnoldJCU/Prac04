@@ -10,6 +10,9 @@ def main():
     data = get_data()
     print(data)
 
+def data_into_sentence():
+    print()
+
 
 def get_data():
     """Read data from file formatted like: subject,lecturer,number of students."""
